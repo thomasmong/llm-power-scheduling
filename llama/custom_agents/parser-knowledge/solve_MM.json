@@ -1,0 +1,33 @@
+{
+    "name": "solve_MM",
+    "parameters": {
+        "f_str": {
+        "type": "string",
+        "description": "The python code that creates the list of convex functions f_i."
+        },
+        "A_str": {
+        "type": "string",
+        "description": "The python code that creates the A matrix (matrix of inequality constraints)."
+        },
+        "b_str": {
+        "type": "string",
+        "description": "The python code that creates the b vector (vector of inequality constraints)."
+        },
+        "Aeq_str": {
+        "type": "string",
+        "description": "The python code that creates the Aeq matrix (matrix of equality constraints)."
+        },
+        "beq_str": {
+        "type": "string",
+        "description": "The python code that creates the beq vector (vector of equality constraints)."
+        },
+        "lb_str": {
+        "type": "string",
+        "description": "The python code that creates the lb scalar (lower bound)."
+        },
+        "ub_str": {
+        "type": "string",
+        "description": "The python code that creates the ub scalar (upper bound)."
+        }
+    }
+}

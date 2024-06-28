@@ -1,0 +1,36 @@
+# MT Problem in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimizing the duration of charge
+
+Optimize the EV charging power to minimize the time duration of charging such that the battery is filled at the desired state of charge.
+Performance metric: charging duration.
+
+- $A = 1$
+- $B = \frac{\Delta T}{Q}$
+- $x_i = \text{SOC}_i$
+- $x_f = \text{SOC}_f$
+- $L_u = 0$
+- $U_u = P_\text{max}$
+- $L_x = 0$
+- $U_x = 1$
+
+where
+
+- $\Delta T$ is the time step;
+- $Q$ is the battery capacity;
+- $\text{SOC}_i$ is the initial state of charge of the battery;
+- $\text{SOC}_f$ is the desired state of charge of the battery;
+- $P_\text{max}$ is the maximum charging power.
+
+### Code example
+
+- A = "1"
+- B = "(req.deltaT / dt.timedelta(hours=1)) / self.battery_capacity"
+- x_i = "self.current_SOC"
+- x_f = "1"
+- L_u = "0"
+- U_u = "self.max_charging_power"
+- L_x = "0"
+- U_x = "1"

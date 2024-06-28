@@ -1,0 +1,14 @@
+# Minimum-Time with Linear Dynamics class (MTL)
+
+$$\begin{aligned}
+\min_{u} &\ T \\
+\text{s.t.} &\ x[k+1] = A x[k] + B u[k] \\
+&\ x[0] = x_i\\
+&\ x[T] = x_f\\
+&\ L_u \leq u \leq U_u\\
+&\ L_x \leq x \leq U_x\\
+\end{aligned}$$
+where
+
+* $u,x,B,x_i,x_f,L_u,L_x,U_u,U_x$ are vectors;
+* $A$ is matrix.

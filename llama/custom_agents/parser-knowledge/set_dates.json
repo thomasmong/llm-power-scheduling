@@ -1,0 +1,17 @@
+{
+    "name": "set_dates",
+    "arguments": {
+        "t_i_str": {
+          "type": "string",
+          "description": "The starting time of the consumption schedule in the date format. 'None' if not specified."
+        },
+        "t_f_str": {
+          "type": "string",
+          "description": "The stopping time of the consumption schedule in the date format. 'None' if not specified."
+        },
+        "T_str": {
+          "type": "string",
+          "description": "The duration of the consumption schedule in hours. Don't ever specify 'hours'. 'None' if not specified."
+        }
+    }
+}

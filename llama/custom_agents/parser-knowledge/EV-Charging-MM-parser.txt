@@ -1,0 +1,32 @@
+# LMM Problems in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimize power Peak to Average Ratio (PAR)
+
+Minimize the PAR to avoid power peaks on the grid.
+Performance metric: power peaks.
+
+- $f_i(x) = x_i + L_i$
+- $A_\text{eq} = \begin{pmatrix}-\Delta T\cdots -\Delta T\end{pmatrix}$
+- $b_\text{eq} = -E_{req}$
+- $A,b$ : None
+- $l_b = 0$
+- $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+- $L$ is the non-flexible load vector;
+- $\Delta T$ is the time step;
+- $E_\text{req}$ is the total energy required to charge the vehicle;
+- $P_\text{max}$ is the maximum charging power.
+
+### Code example
+
+- f_i = "[lambda x,self=self,req=req,i=i: x[i] + self.get_incoming_load(req.t_i,req.T)[i] for i in range(req.N)]"
+- A = "None"
+- b = "None"
+- Aeq = "-(req.deltaT / dt.timedelta(hours=1)) * np.ones(req.N).reshape(1,-1)"
+- beq = "-self.get_required_energy(1)"
+- lb = "np.zeros(req.N)"
+- ub = "self.max_charging_power*np.ones(req.N)"

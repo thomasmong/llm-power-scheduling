@@ -1,0 +1,12 @@
+# Linear Programming (LP)
+
+$$\begin{aligned}
+\min_{x} &\ c^\top x \\
+\text{s.t.} &\ A x \leq b \\
+&\ A_\text{eq} x = b_\text{eq} \\
+&\ l_b \leq x \leq u_b
+\end{aligned}$$
+where
+
+* $x,c,b,b_\text{eq},l_b,u_b$ are vectors;
+* $A,A_\text{eq}$ are matrices.

@@ -1,0 +1,41 @@
+# CP Problem in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimizing the damage on the electricity distribution network
+
+Optimize the EV charging power to minimize the damages on the distribution transformer.
+Performance metric/key word: network transformer, life time of distribution transformer.
+
+* $f(x) = \sum_t^T e^{\alpha h_t(x)} + K(l_t+x_t)^2$
+* $\forall t, g_t$ : $h_t(x) - \theta_m$
+* $g_{T+1}$ : $E_{req} - \begin{pmatrix} \Delta T \cdots \Delta T \end{pmatrix}x$
+* $A_\text{eq}, b_\text{eq}$ : None
+* $l_b = 0$
+* $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+* $\alpha > 0$ is a weight parameter
+* $h_t(x)$ is the hot-spot temperature of the distribution transformer
+* $K$ is an equivalent resistance
+* $\theta_m$ is the maximum temperature
+* $\Delta T$ is the time step;
+* $E_\text{req}$ is the total energy required to charge the vehicle;
+* $P_\text{max}$ is the maximum charging power.
+
+### Request example
+
+"I need the EV charged. Try to spare the distribution transformer."
+"Charge the Tesla, but don't hurt the transformer please."
+"Fill the EV, but, you know, don't stress the distribution network."
+"I'd appreciate it if the car charging could minimize the load on our transformer."
+
+### Code example
+
+- f = "lambda x: self.get_transfo_model(x)"
+- g = "[lambda x: self.get_hot_spot(x,i) - self.max_temp for i in range(req.N)] + [lambda: self.get_required_energy(1) - req.deltaT * x]"
+- A = "None"
+- b = "None"
+- lb = "np.zeros(req.N)"
+- ub = "self.max_charging_power*np.ones(req.N)"

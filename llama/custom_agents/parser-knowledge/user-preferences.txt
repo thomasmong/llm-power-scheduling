@@ -1,0 +1,2 @@
+# User preferences
+- night hours: 10PM - 7AM # night requests only

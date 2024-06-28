@@ -1,0 +1,12 @@
+Attributes:
+
+- self.deltaT : scheduling step time (timedelta type)
+- self.current_SOC : current state of charge of the EV battery (between 0 and 1)
+- self.max_charging_power : maximum power of the EV max_charging_power
+
+Methods:
+
+- self.get_incoming_prices(t_i,T) : returns a numpy array of prices from instant t_i (datetime type) and duration T (timedelta type)
+- self.get_incoming_load(t_i,T) : returns a numpy array of non-flexible power load on the grid from instant t_i (datetime type) and duration T (timedelta type)
+- self.get_incoming_renew_factor(t_i,T) : returns a numpy array of renewable availability factor from instant t_i (datetime type) and duration T (timedelta type)
+- self.get_required_energy(final_SOC) : returns the required energy to reach the final state of charge final_SOC

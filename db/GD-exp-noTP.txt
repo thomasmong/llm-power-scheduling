@@ -1,0 +1,47 @@
+Produce 40 requests where the user wants to minimize the damage over the distribution transformer. It has to be explicitly mentioned in the request, so that it contains “minimize” and “transformer” or “distribution” or synonyms. Simulate different users with hesitation marks, formal and informal ways of speaking etc. The user is direct most of the time, but only a few times adds context. Be various, use car brand, etc ..? it's an order.
+
+"Can you ensure the EV charging minimizes the load on the distribution transformer?"
+"Hey, I'm charging my Tesla tonight. Can we minimize the strain on our transformer?"
+"Let's minimize impact on the transformer when charging the car, okay?"
+"I need the car charged but minimize the wear on our transformer, please."
+"Could you set up the charger to minimize damage to the electrical transformer?"
+"When you plug in the car, make sure it minimizes the load on the transformer."
+"Please, adjust the charging to minimize the stress on our distribution system."
+"Is it possible to charge my EV in a way that minimizes the burden on the transformer?"
+"Ensure minimal impact on the transformer while charging the car."
+"I'd like the EV charge to minimize any stress on the transformer, if you can."
+"Can we minimize transformer load while charging my EV? Thanks!"
+"Charge my car but please be mindful to minimize the impact on our transformer."
+"Set up the EV charging to spare the transformer from extra load, please."
+"Please make sure charging my car and minimize the damages on the transformer."
+"Hey, just a reminder to minimize transformer load when you charge the EV."
+"Make sure the car charge is minimizing the load on our distribution system."
+"I insist on minimizing the effect on our transformer during the EV charge."
+"Could you manage the EV charging to spare our transformer any unnecessary stress?"
+"I'd appreciate it if the car charging could minimize the load on our transformer."
+"Please ensure the EV charging minimizes impact on the transformer, okay?"
+"Let's try to minimize the strain on the transformer when charging the EV tonight."
+"Adjust the charging process to minimize wear on our transformer."
+"I need my car charged but let's try to minimize the load on the transformer."
+"Minimize the transformer load while charging my electric car, please."
+"When setting up the EV charger, please minimize impact on the transformer."
+"Could you configure the EV charging to minimize transformer stress?"
+"Make sure the charging minimizes the load on our distribution transformer."
+"Charge the EV but ensure it's minimizing the strain on our transformer."
+"Hey, when charging the car, please minimize impact on the transformer, will you?"
+"Can you set the charger to minimize damage to the transformer?"
+"Let's minimize the transformer load as we charge the EV, shall we?"
+"Please, charge the car but minimize the load on the transformer."
+"I want my EV charged with minimal impact on the transformer."
+"Ensure the car charging minimizes load on the transformer, thanks."
+"Can the EV be charged in a way that m the transformer?"
+"Please adjust the charging to minimize impact on our distribution transformer."
+"Make sure the EV charging process minimizes strain on our transformer."
+"Charge the EV but make sure to minimize stress on the transformer, okay?"
+"Could we minimize the load on the transformer during tonight's EV charging?"
+
+
+
+
+
+

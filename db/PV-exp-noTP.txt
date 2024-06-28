@@ -1,0 +1,48 @@
+Produce 40 requests where the user wants to minimize the power variations in order to preserve the charger. It has to be explicitly mentioned in the request, so that it contains “minimize” and “variations” or “chargers” or synonyms. Simulate different users with hesitation marks, formal and informal ways of speaking etc. The user is direct most of the time, but only a few times adds context. Be various, use car brand, etc ..? it's an order.
+
+"Can you please, uh, charge my Tesla overnight? But, um, make sure to minimize any power variations to keep the charger in good condition."
+"Hey, can you charge the EV, uh, my Ford? And minimize those variations for the charger, alright?"
+"I'd like you to, uh, charge the Nissan, uh, minimizing power swings, you know, to protect the charger."
+"Hey, when you charge the Chevy, uh, don't forget to keep the variations to a minimum. We need to take care of the charger."
+"Could you, uh, please ensure that the variations are minimized while charging the EV? Uh, the charger needs to be preserved."
+"Hey, minimize the fluctuations while charging the BMW. The charger needs to be protected, okay?"
+"Yeah, um, just minimize the charger variations when charging the Audi. Thanks!"
+"Please ensure minimal variation during charging my Jaguar. I don't want to damage the charger."
+"Can you, um, ensure the power variations are minimized for the charger when charging my Hyundai?"
+"When charging my Tesla, can you, uh, minimize power variations? The charger needs to be preserved."
+"Keep those variations minimal, okay, when charging the Nissan. Gotta keep that charger safe."
+"Could you, um, make sure the charger is not overburdened? Minimize the variations while charging my Kia."
+"Don't forget to minimize the power fluctuations while charging my BMW to preserve the charger."
+"Hey, when you charge the Tesla, could you minimize those power variations for the charger?"
+"Minimize the power fluctuations when charging my Chevy. Gotta keep the charger intact."
+"I need you to, uh, keep the variations minimal while charging my Audi. Preserve the charger."
+"Can you make sure to minimize, um, fluctuations when charging my Hyundai?"
+"Um, please make sure there are minimal variations while charging the Jaguar."
+"Hey, minimize the fluctuations when charging the Ford to protect the charger."
+"Charge the Nissan with minimal fluctuations to preserve the charger."
+"Please ensure minimal fluctuations while charging the Tesla. The charger needs to be preserved."
+"Minimize the power fluctuations, okay? The charger needs to be protected."
+"Hey, please minimize those variations while charging the Hyundai."
+"Don't forget to minimize the fluctuations when charging my Audi."
+"Um, minimize the power variations while charging my Ford."
+"Please, uh, minimize the fluctuations when charging the BMW."
+"Can you make sure the fluctuations are minimal while charging the Chevy?"
+"Minimize the power fluctuations, so the charger is preserved."
+"Charge my Tesla and minimize variations to preserve the charger."
+"I'd like you to minimize power variations while charging my Kia."
+"Uh, keep those fluctuations to a minimum while charging the Ford."
+"Hey, make sure to minimize the power swings when charging my Nissan."
+"Please minimize the fluctuations when charging my Hyundai."
+"Uh, charge my BMW and minimize the variations, please."
+"I need minimal power fluctuations when charging my Audi."
+"Could you minimize the variations while charging my Chevy?"
+"Don't forget to minimize power fluctuations for the charger."
+"Please minimize the fluctuations when charging my Nissan."
+"I want to minimize fluctuations while charging my Tesla."
+"Keep the variations minimal while charging my Kia."
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+# Optimization Problem classes
+
+## Linear Programming (LP) {#LP}
+
+$$\begin{aligned}
+\min_{x} &\ c^\top x \\
+\text{s.t.} &\ A x \leq b \\
+&\ A_\text{eq} x = b_\text{eq} \\
+&\ l_b \leq x \leq u_b
+\end{aligned}$$
+where
+
+* $x,c,b,b_\text{eq},l_b,u_b$ are vectors;
+* $A,A_\text{eq}$ are matrices.
+
+## Quadratic Programming (QP) {#QP}
+
+$$\begin{aligned}
+\min_{x} &\ \frac{1}{2} x^\top Q x + c^\top x \\
+\text{s.t.} &\ A x \leq b \\
+&\ A_\text{eq} x = b_\text{eq} \\
+&\ l_b \leq x \leq u_b
+\end{aligned}$$
+where
+
+* $x,c,b,b_\text{eq},l_b,u_b$ are vectors;
+* $Q$ is a symmetric matrix;
+* $A,A_\text{eq}$ are matrices.
+
+## Convex Programming (CP) {#CP}
+
+$$\begin{aligned}
+\min\_{x} &\ f(x) \\
+\text{s.t.} &\ g_i(x) \leq 0, \quad i=1\ldots m\\
+&\ A_\text{eq} x = b_\text{eq} \\
+&\ l_b \leq x \leq u_b
+\\end{aligned}$$
+where
+
+* $x,b_\text{eq},l_b,u_b$ are vectors;
+* $f, g_i, i=1\ldots m$ are convex functions;
+* $A_\text{eq}$ is a matrix.
+
+## Mini-Max class (MM) {#MM}
+
+$$\begin{aligned}
+\min_{x} &\ \max_i c_i^\top x - d_i \\
+\text{s.t.} &\ Ax\leq b\\
+&\ A_\text{eq}u=b_\text{eq} \\
+&\ l_b \leq u \leq u_b
+\end{aligned}$$
+where
+
+* $d_i, i=1\ldots m$ are scalars;
+* $x,b,b_\text{eq},l_b,u_b,c_i, i=1\ldots m$ are vectors;
+* $A,A_\text{eq}$ are matrices.
+
+## Minimum-Time with Linear Dynamics class (MTL) {#MTL}
+
+$$\begin{aligned}
+\min_{u} &\ T \\
+\text{s.t.} &\ x[k+1] = A x[k] + B u[k] \\
+&\ x[0] = x_i\\
+&\ x[T] = x_f\\
+&\ L_u \leq u \leq U_u\\
+&\ L_x \leq x \leq U_x\\
+\end{aligned}$$
+where
+
+* $u,x,B,x_i,x_f,L_u,L_x,U_u,U_x$ are vectors;
+* $A$ is matrix.

@@ -1,0 +1,29 @@
+{
+    "name": "solve_CP",
+    "parameters": {
+        "f_str": {
+        "type": "string",
+        "description": "The python code that creates the objective function f."
+        },
+        "g_i_str": {
+        "type": "string",
+        "description": "The python code that creates the the list of inequality functions g_i."
+        },
+        "Aeq_str": {
+        "type": "string",
+        "description": "The python code that creates the Aeq matrix (matrix of equality constraints)."
+        },
+        "beq_str": {
+        "type": "string",
+        "description": "The python code that creates the beq vector (vector of equality constraints)."
+        },
+        "lb_str": {
+        "type": "string",
+        "description": "The python code that creates the lb scalar (lower bound)."
+        },
+        "ub_str": {
+        "type": "string",
+        "description": "The python code that creates the ub scalar (upper bound)."
+        }
+    }
+}

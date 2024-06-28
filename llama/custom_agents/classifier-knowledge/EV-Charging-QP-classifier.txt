@@ -1,0 +1,29 @@
+# QP Problem in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimizing the power variations
+
+Optimize the EV charging power to minimize the power variations on the charger.
+Performance metric/key words: smooth EV charger power, EV charger lifetime, protect charger.
+
+* $Q = 2I_N$
+* $c$ : None
+* $A = \begin{pmatrix}-\Delta T\cdots -\Delta T\end{pmatrix}$
+* $b = -E_\text{req}$
+* $A_\text{eq}, b_\text{eq}$ : None
+* $l_b = 0$
+* $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+* $\Delta T$ is the time step;
+* $E_\text{req}$ is the total energy required to charge the vehicle;
+* $P_\text{max}$ is the maximum charging power.
+
+### Request example
+
+"I need the EV charge but focus on smooth power at the charger."
+"Could you, uh, please ensure that the variations are minimized while charging the EV? Uh, the charger needs to be preserved."
+"Charge the Tesla without overloading the charger, okay?"
+"Keep the power consistent for my Kia."

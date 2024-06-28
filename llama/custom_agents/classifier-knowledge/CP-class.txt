@@ -1,0 +1,13 @@
+# Convex Programming (CP)
+
+$$\begin{aligned}
+\min_{x} &\ f(x) \\
+\text{s.t.} &\ g_i(x) \leq 0, \quad i=1\ldots m\\
+&\ A_\text{eq} x = b_\text{eq} \\
+&\ l_b \leq x \leq u_b
+\end{aligned}$$
+where
+
+* $x,b_\text{eq},l_b,u_b$ are vectors;
+* $f, g_i, i=1\ldots m$ are convex functions;
+* $A_\text{eq}$ is a matrix.

@@ -1,0 +1,29 @@
+# MM Problems in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimize power Peak to Average Ratio (PAR)
+
+Minimize the PAR to avoid power peaks on the grid. It corresponds to minimize the maximum power load on the grid.
+Performance metric/key word: grid power peaks, electrical installation lifetime, power peak, protect home from overload, minimize power consumption peaks on grid.
+
+- $f_i(x) = x_i + L_i$
+- $A = \begin{pmatrix}-\Delta T\cdots -\Delta T\end{pmatrix}$
+- $b = -E_{req}$
+- $A_\text{eq},b_\text{eq}$ : None
+- $l_b = 0$
+- $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+* $L$ is the non-flexible load vector;
+* $\Delta T$ is the time step;
+* $E_\text{req}$ is the total energy required to charge the vehicle;
+* $P_\text{max}$ is the maximum charging power.
+
+### Request example
+
+"Charge my EV while minimizing the power peak on the grid please."
+"Let's get my EV charged without making a peak in our home's power usage."
+"I'd like a charging plan that doesn't stress our electricity grid too much."
+"Let's aim to, you know, minimize the power peaks while charging the car tonight."

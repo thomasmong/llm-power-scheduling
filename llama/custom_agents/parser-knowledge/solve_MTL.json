@@ -1,0 +1,37 @@
+{
+    "name": "solve_MTL",
+    "parameters": {
+        "A_str": {
+        "type": "string",
+        "description": "The python code that creates the A matrix (state matrix)."
+        },
+        "B_str": {
+        "type": "string",
+        "description": "The python code that creates the B matrix (input matrix)."
+        },
+        "xi_str": {
+        "type": "string",
+        "description": "The python code that creates the x_i vector (initial state)."
+        },
+        "xf_str": {
+        "type": "string",
+        "description": "The python code that creates the x_f vector (final state)."
+        },
+        "Lu_str": {
+        "type": "string",
+        "description": "The python code that creates the Lu vector (input lower bound)."
+        },
+        "Uu_str": {
+        "type": "string",
+        "description": "The python code that creates the ub scalar (input upper bound)."
+        },
+        "Lx_str": {
+        "type": "string",
+        "description": "The python code that creates the Lx vector (state lower bound)."
+        },
+        "Ux_str": {
+        "type": "string",
+        "description": "The python code that creates the Ux vector (state upper bound)."
+        }
+    }
+}

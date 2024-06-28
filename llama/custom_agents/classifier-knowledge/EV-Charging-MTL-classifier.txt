@@ -1,0 +1,32 @@
+# MTL Problem in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimizing the duration of charge
+
+Optimize the EV charging power to minimize the time duration of charging such that the battery is filled at the desired state of charge.
+Performance metric/key word: charging duration, EV availability, speed, time.
+
+* $A = 1$
+* $B = \\frac{\\Delta T}{Q}$
+* $x_i = \\text{SOC}\_i$
+* $x_f = \\text{SOC}\_f$
+* $L_u = 0$
+* $U_u = \\begin{pmatrix}P\_\\text{max}\\cdots P\_\\text{max}\\end{pmatrix}^\\top$
+* $L_x = 0$
+* $U_x = \\begin{pmatrix}1\\cdots 1\\end{pmatrix}^\\top$
+
+where
+
+* $\\Delta T$ is the time step;
+* $Q$ is the battery capacity;
+* $\\text{SOC}\_i$ is the initial state of charge of the battery;
+* $\\text{SOC}\_f$ is the desired state of charge of the battery;
+* $P\_\\text{max}$ is the maximum charging power.
+
+### Request example
+
+"I need my EV charge as soon as possible please."
+"Could we look into quicker charging methods for my vehicle?"
+"Can we ensure the car is ready faster by adjusting the charge settings?"
+"Ensure the charging time is minimized; I need it quick."

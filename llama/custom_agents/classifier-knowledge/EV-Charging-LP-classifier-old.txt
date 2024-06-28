@@ -1,0 +1,56 @@
+# LP Problems in EV Charging
+
+We consider a single charging station in the Smart Home system context.
+
+## Minimizing Charging Cost Over a Time Period
+
+Optimize the EV charging power to minimize the total electricity cost over a specified period.
+Performance metric/key word: electricity expenses, charging cost, electricity bill, save money.
+
+* $c$ : $w$
+* $A = \begin{pmatrix}-\Delta T\cdots -\Delta T\end{pmatrix}$
+* $b = -E_\text{req}$
+* $A_\text{eq}, b_\text{eq}$ : None
+* $l_b = 0$
+* $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+* $w$ is the vector of electricity prices during charging time;
+* $\Delta T$ is the time step;
+* $E_\text{req}$ is the total energy required to charge the vehicle;
+* $P_\text{max}$ is the maximum charging power.
+
+### Request example
+
+"Charge my EV but try to reduce the costs please."
+"Guess it's time to charge the car but find me those bargain electricity hours, yeah?"
+"Charge my vehicle but do it in a way that’s gentle on my expenses."
+"Please, initiate EV charging but make it cost-effective."
+
+## Minimizing Charging Cost with Renewable Energy Integration
+
+Optimize the EV charging power to minimize the total electricity cost over a specified period by maximizing the use of renewable energy.
+Performance metric/key wors: environmental impact, carbon-based energy emission, green energy, eco-conscious.
+
+* $c$ : $w - r$
+* $A = \begin{pmatrix}-\Delta T\cdots -\Delta T\end{pmatrix}$
+* $b = -E_\text{req}$
+* $A_\text{eq}, b_\text{eq}$ : None
+* $l_b = 0$
+* $u_b = \begin{pmatrix}P_\text{max}\cdots P_\text{max}\end{pmatrix}^\top$
+
+where
+
+* $w$ is the vector of prices during charging time;
+* $r$ is the vector of renewable energy availability factor during charging time;
+* $\Delta T$ is the time step;
+* $E_\text{req}$ is the total energy required to charge the vehicle;
+* $P_\text{max}$ is the maximum charging power.
+
+### Request example
+
+"Hey, can you make sure my EV charges but, like, in the most eco-friendly way?"
+"Can you handle my EV charging in a way that's sympathetic to ecological concerns?"
+"Find the time slots that minimize harm to the environment for my car's charging, please."
+"Please, take advantage of renewable energy peaks to charge my car."
