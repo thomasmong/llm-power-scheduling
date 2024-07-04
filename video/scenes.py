@@ -8,10 +8,10 @@ from manim import *
 class Intro(Scene):
 
     def construct(self):
-        title = "ASHEM Project"
-        subtitle = "A Smart Home optimizer assistant based on LLM"
-        Title = Text(title,font="Satoshi Medium",font_size=80).shift(UP)
-        Subtitle = Paragraph("A Smart Home optimizer assistant","based on LLM",font="Satoshi Medium",alignment='center').next_to(Title,DOWN)
+        title = "Large Language Models for\nPower Scheduling\nA User-Centric Approach"
+        subtitle = "Application to electrical vehicle\ncharging optimization"
+        Title = Paragraph(title,font="Satoshi Medium",font_size=60,alignment='center').shift(UP).scale(0.95)
+        Subtitle = Paragraph(subtitle,font="Satoshi Medium",alignment='center').next_to(Title,DOWN).scale(0.8)
         self.play(Write(Title))
         self.play(Write(Subtitle))
         self.wait(3)
@@ -28,17 +28,17 @@ class Situation(Scene):
         
         
         personShruggingSVG = SVGMobject("img/shrugging.svg",height=1.8).move_to(personSVG.get_center())
-        questionmarkSVG = SVGMobject("img/questionmark.svg",width=0.4).next_to(personSVG,UP)
+        questionmarkSVG = Text("??",font="Satoshi Heavy").next_to(personSVG,UP)
         
         bubble = SVGMobject("img/bubble.svg",width=5).next_to(personSVG,RIGHT).shift(2*UP)
         # Question on top of the bubble
-        question = Paragraph("How should I charge","my EV in order to","reduce the costs?",line_spacing=1,font="Satoshi",font_size=25,alignment='center').move_to(bubble.get_center()).shift(0.3*UP+0.25*RIGHT)
+        question = Paragraph("What's the most\ncost-effective way\nto charge my EV?",line_spacing=1,font="Satoshi",font_size=25,alignment='center').move_to(bubble.get_center()).shift(0.3*UP+0.25*RIGHT)
         self.play(FadeIn(personSVG),FadeIn(evSVG))
         self.play(Write(bubble),Write(question))
         self.play(FadeOut(personSVG),FadeIn(personShruggingSVG),run_time=0.4)
         self.play(FadeIn(questionmarkSVG))
         # Emphasize the question
-        self.play(Wiggle(questionmarkSVG),run_time=0.5)
+        self.play(Indicate(questionmarkSVG,color=RED),run_time=1)
         self.wait(1)
 
         # Fade out bubble and question + back to normal person
@@ -63,7 +63,7 @@ class AssistantSolution(Scene):
 
         # User request
         bubble = SVGMobject("img/bubble_basic.svg",width=4).next_to(personSVG,RIGHT).shift(2.2*UP)
-        request = Paragraph("Charge my EV","by 7AM but","reduce the costs",line_spacing=1,font="Satoshi",font_size=25,alignment='center').move_to(bubble.get_center()).shift(0.3*UP+0.18*RIGHT)
+        request = Paragraph("Charge my EV\nto be ready by 7AM\ntomorrow, prioritizing the\nlowest costs",line_spacing=0.8,font="Satoshi",font_size=25,alignment='center').move_to(bubble.get_center()).shift(0.3*UP+0.18*RIGHT).scale(0.8)
         self.play(Write(bubble),Write(request))
         self.wait(1)
 
@@ -72,8 +72,7 @@ class AssistantSolution(Scene):
         self.play(Unwrite(bubble))
         self.play(FadeOut(request,target_position=robotSVG,scale=0.2))
         self.play(Wiggle(robotSVG,run_time=.8))
-        self.play(Wiggle(robotSVG,run_time=.8))
-        self.play(Flash(robotSVG,flash_radius=1,num_lines=10,run_time=.8))
+        self.play(Flash(robotSVG,flash_radius=1,num_lines=10,run_time=.8,color=WHITE))
 
         # Assistant response
         # Create bar chart
