@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1457378895_4071659840_778369027.mp4'
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1993220219_485083600_4064054963.mp4'
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1993220219_2243892653_71221156.mp4'
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1993220219_2049195861_203980965.mp4'
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1993220219_3742096356_3049881402.mp4'
+file 'file:/home/thomasmong/Documents/Doctorat/Travail/Projects/ASHEM/demo-video/ashem/media/videos/scenes/2160p60/partial_movie_files/Comment/1993220219_3636024140_1441428165.mp4'

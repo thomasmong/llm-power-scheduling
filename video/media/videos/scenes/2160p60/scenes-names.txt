@@ -1,0 +1,8 @@
+file 'Intro.mp4'
+file 'Situation.mp4'
+file 'AssistantSolution.mp4'
+file 'AssistantDetail.mp4'
+file 'Conclusion.mp4'
+file '/home/thomasmong/Videos/demo/final-demo.mp4'
+file 'CommentLP.mp4'
+file 'Credits.mp4'

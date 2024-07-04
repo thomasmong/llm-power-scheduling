@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3529212410_2479631172_223132457.mp4'
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3040924799_116942832_2211468643.mp4'
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3040924799_2130679174_3314072730.mp4'
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3040924799_372556525_1589986681.mp4'
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3040924799_153181139_932501057.mp4'
+file 'file:D:/Manim/ashem/media/videos/scenes/1080p60/partial_movie_files/Situation/3040924799_784179552_290240161.mp4'
