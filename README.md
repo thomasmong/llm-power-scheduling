@@ -1,1 +1,1 @@
-[![Watch the video]()](https://raw.githubusercontent.com/thomasmong/llm-power-scheduling/main/video/media/videos/scenes/2160p60/output.mp4)
+[![Watch the video](https://raw.githubusercontent.com/thomasmong/llm-power-scheduling/main/video/media/images/scenes/Intro_ManimCE_v0.18.0.png)](https://raw.githubusercontent.com/thomasmong/llm-power-scheduling/main/video/media/videos/scenes/2160p60/output.mp4)
