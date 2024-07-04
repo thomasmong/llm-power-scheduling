@@ -1,1 +1,4 @@
-[![Watch the video](https://raw.githubusercontent.com/thomasmong/llm-power-scheduling/main/video/media/images/scenes/Intro_ManimCE_v0.18.0.png)](https://raw.githubusercontent.com/thomasmong/llm-power-scheduling/main/video/media/videos/scenes/2160p60/output.mp4)
+
+
+https://github.com/thomasmong/llm-power-scheduling/assets/64835490/82ec32a6-2717-4d44-ac87-c7c5c9964b18
+
