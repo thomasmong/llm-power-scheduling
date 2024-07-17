@@ -1,4 +1,4 @@
 
 
-https://github.com/thomasmong/llm-power-scheduling/assets/64835490/a3cab0f6-a48e-4572-b29f-ccb36a825698
+https://github.com/user-attachments/assets/bb67b917-f80d-4c42-b5a6-57874369c283
 
