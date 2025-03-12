@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/902cc6d8-9a06-463d-a0fd-cd6454ba805d
 
 ## Dependencies
 ollama is required to run the LLM locally. In addition, you will need the following python packages:
-- ollama
+- ollama (0.2.1)
 - json
 - datetime
 
