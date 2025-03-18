@@ -8,10 +8,13 @@ https://github.com/user-attachments/assets/902cc6d8-9a06-463d-a0fd-cd6454ba805d
 
 
 ## Dependencies
-ollama is required to run the LLM locally. In addition, you will need the following python packages:
+ollama (0.3.13 version) is required to run the LLM locally. In addition, you will need the following python packages:
 - ollama (0.2.1)
 - json
 - datetime
+
+> [!NOTE]  
+> There were ollama updates that made the code not runable. I am planning to rewrite the code to be compatible with the latest version.
 
 ## Database
 The `EVRQ` folder contains all the user requests that constitute the EVRQ database. The filename indicates:
